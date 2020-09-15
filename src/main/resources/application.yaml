@@ -138,7 +138,7 @@ gdpr:
 ccpa:
   enforce: true
 geolocation:
-  enabled: true
+  enabled: false
   type: maxmind
   maxmind:
     remote-file-syncer:
