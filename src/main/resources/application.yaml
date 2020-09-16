@@ -1,6 +1,8 @@
 spring:
   main:
     banner-mode: "off"
+  jmx:
+    enabled: true
 vertx:
   worker-pool-size: 20
   uploads-dir: file-uploads
